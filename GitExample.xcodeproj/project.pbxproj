@@ -14,6 +14,7 @@
 		DF3D3F7F19EF84C900B4CE9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3D3F7E19EF84C900B4CE9A /* Images.xcassets */; };
 		DF3D3F8219EF84C900B4CE9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF3D3F8019EF84C900B4CE9A /* LaunchScreen.xib */; };
 		DF3D3F8E19EF84C900B4CE9A /* GitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3D3F8D19EF84C900B4CE9A /* GitExampleTests.m */; };
+		DF3D3F9919EFA3ED00B4CE9A /* MapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3D3F9819EFA3ED00B4CE9A /* MapForItinerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DF3D3F8719EF84C900B4CE9A /* GitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3D3F8C19EF84C900B4CE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF3D3F8D19EF84C900B4CE9A /* GitExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitExampleTests.m; sourceTree = "<group>"; };
+		DF3D3F9719EFA3ED00B4CE9A /* MapForItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItinerary.h; sourceTree = "<group>"; };
+		DF3D3F9819EFA3ED00B4CE9A /* MapForItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItinerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				DF3D3F7619EF84C900B4CE9A /* AppDelegate.m */,
 				DF3D3F7819EF84C900B4CE9A /* ViewController.h */,
 				DF3D3F7919EF84C900B4CE9A /* ViewController.m */,
+				DF3D3F9719EFA3ED00B4CE9A /* MapForItinerary.h */,
+				DF3D3F9819EFA3ED00B4CE9A /* MapForItinerary.m */,
 				DF3D3F7B19EF84C900B4CE9A /* Main.storyboard */,
 				DF3D3F7E19EF84C900B4CE9A /* Images.xcassets */,
 				DF3D3F8019EF84C900B4CE9A /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3D3F9919EFA3ED00B4CE9A /* MapForItinerary.m in Sources */,
 				DF3D3F7A19EF84C900B4CE9A /* ViewController.m in Sources */,
 				DF3D3F7719EF84C900B4CE9A /* AppDelegate.m in Sources */,
 				DF3D3F7419EF84C900B4CE9A /* main.m in Sources */,
