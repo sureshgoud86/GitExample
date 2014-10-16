@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)btnAction:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UIView *labelX;
 
 @end
 
