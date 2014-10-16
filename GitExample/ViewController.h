@@ -13,6 +13,7 @@
 - (IBAction)btnAction:(id)sender;
 
 @property (strong, nonatomic) IBOutlet UIView *labelX;
+@property (strong, nonatomic) IBOutlet UIView *labelY;
 
 @end
 
